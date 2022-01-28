@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.input {
+  width: 230px;
+  padding: 9px;
+  border-radius: 5px;
+  border: solid 1px #d5d4d8;
+  font-family: 'karla', sans-serif;
+  font-size: 12px;
+}
+
+button {
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  color: #FFF;
+  padding: 9px;
+  border: none;
+  font-family: 'karla', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
