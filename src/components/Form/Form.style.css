@@ -1,6 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 .inputContainer {
   display: flex;
@@ -19,10 +20,41 @@
 button {
   background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   border-radius: 5px;
-  color: #FFF;
+  color: #fff;
   padding: 9px;
   border: none;
   font-family: 'karla', sans-serif;
   font-weight: 700;
   cursor: pointer;
+}
+
+.imgContainer {
+  border: solid 1px #d5d4d8;
+  border-radius: 5px;
+  position: relative;
+}
+
+.memeImg {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.memeTopText {
+  top: 2rem;
+}
+.memeBottomText {
+  bottom: 2rem;
+}
+.memeBottomText,
+.memeTopText {
+  position: absolute;
+  width: 100%;
+  padding: 0 3rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 34px;
+  font-weight: 600;
+  -webkit-text-stroke: 1px black;
 }
